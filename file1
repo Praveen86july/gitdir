@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "going to create a shell script"
+read -p " enter website" WEBSITE
+ping -c $WEBSITE
+
